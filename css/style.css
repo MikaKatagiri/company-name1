@@ -297,15 +297,17 @@ h4 {
   background: transparent;
 }
 
-.nav-toggle {
+a.nav-toggle {
   box-sizing: border-box;
   width: 12px;
-  height: 4px;
-  background: #fff;
+  height: 16px;
+  margin: 16px auto;
+  position: relative;
+  display: none;
   }
 
   a.nav-toggle:hover {
-    background: transparent;
+  background: transparent;
   }
 
   .nav-toggle:before, .nav-toggle:after {
@@ -325,7 +327,7 @@ h4 {
 }
 
 .nav-toggle:after {
-  width: 12px;
+  top: 12px;
   height: 4px;
   background: #fff;
 }
